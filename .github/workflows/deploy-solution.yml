@@ -1,7 +1,7 @@
 name: Deploy app
 on:
   workflow_run:
-    workflows: ["Pack Contoso_University_Core"]
+    workflows: ["Pack the solution"]
     branches: [main]
     types:
       - completed
